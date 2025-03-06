@@ -1,0 +1,13 @@
+# Ignore the .env file to keep sensitive data safe
+.env
+
+# Ignore the vendor directory (installed via Composer)
+/vendor/
+
+# Ignore the composer.lock file if you don’t want to commit it
+composer.lock
+
+# Ignore any temporary or IDE-specific files
+.DS_Store
+.idea/
+.vscode/
